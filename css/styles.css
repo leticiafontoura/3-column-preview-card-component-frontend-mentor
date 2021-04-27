@@ -40,14 +40,15 @@ img {
     margin-top: 10px;
 }
 .cards-container section {
-    padding: 50px;
+    padding: 45px;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .cards-container p {
     color: var(--paragraphs);
-    width: 82%;
+    padding-bottom: 100px;
 }
 
 h1 {
@@ -58,14 +59,16 @@ h1 {
 }
 
 button {
-    margin-top: 4em;
+
     border-radius: 50px;
     border: 0px;
     padding: 10px 15px;
     background-color: var(--verylighthgray);
     border: 2px solid var(--verylighthgray);
     font-family: 'Lexend Deca', sans-serif;
-    width: 70%;
+    width: 50%;
+    position: absolute;
+    bottom: 45px;
 }
 
 button:hover {
@@ -126,8 +129,12 @@ button:hover {
         width: 100%;
     }
 
+    .cards-container section p {
+        padding-bottom: 60px;
+    }
+
     button {
-        margin-top: 2em;
+        width: 45%;
     }
 
     footer {
