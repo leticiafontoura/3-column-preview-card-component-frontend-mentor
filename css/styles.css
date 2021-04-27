@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+    --brightorange: hsl(31, 77%, 52%);
+    --darkcyan: hsl(184, 100%, 22%);
+    --verydarkcyan: hsl(179, 100%, 13%);
+    --paragraphs: hsla(0, 0%, 100%, 0.75);
+    --verylighthgray: hsl(0, 0%, 95%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    color: var(--verylighthgray);
+}
+
+html, body {
+    background-color: var(--verylighthgray);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-size: 0.9375em;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.cards-container {
+    display: flex;
+    width: 60%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    line-height: 2;
+}
+
+img {
+    width: 70px;
+    margin-top: 10px;
+}
+.cards-container section {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-container p {
+    color: var(--paragraphs);
+    width: 82%;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    margin: 0.5em 0;
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+
+button {
+    margin-top: 4em;
+    border-radius: 50px;
+    border: 0px;
+    padding: 10px 15px;
+    background-color: var(--verylighthgray);
+    border: 2px solid var(--verylighthgray);
+    font-family: 'Lexend Deca', sans-serif;
+    width: 70%;
+}
+
+button:hover {
+    color: var(--verylighthgray) !important;
+    background-color: transparent;
+    border: 2px solid var(--verylighthgray);
+}
+
+.card-sedans {
+    background-color: var(--brightorange);
+    width: 33.33%;
+}
+
+.card-sedans button {
+    color: var(--brightorange);
+}
+
+.card-suv {
+    background-color: var(--darkcyan);
+    width: 33.33%;
+}
+
+.card-suv button {
+    color: var(--darkcyan);
+}
+
+.card-luxury {
+    background-color: var(--verydarkcyan);
+    width: 33.33%;
+}
+
+.card-luxury button {
+    color: var(--verydarkcyan);
+}
+
+@media (max-width: 1270px) {
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-top: 20px;
+    }
+
+    .cards-container section {
+        width: 100%;
+    }
+}
+
+@media (max-width: 578px) {
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .cards-container section {
+        width: 100%;
+    }
+
+    button {
+        margin-top: 2em;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+footer {
+    color: #000;
+    margin-top: 2em;
+}
+footer a {
+    color: var(--brightorange)
+}
