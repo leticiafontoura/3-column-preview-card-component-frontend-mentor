@@ -42,4 +42,4 @@ A cool thing that I learned was to use **em** and ```css overflow: hidden``` to 
 
 ### :bookmark: Continued development
 
-I want to learn more about units such as vh, vw, em, and how to properly set a background-image to a container.
+I want to learn more about units such as vh, vw, em, and how to have items properly aligned in every screen resolution.
