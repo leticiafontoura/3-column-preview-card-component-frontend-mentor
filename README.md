@@ -27,8 +27,8 @@ Users should be able to:
 
 ### :paperclip: Links
 
-- Solution URL: [Code Repo](https://github.com/leticiafontoura/card-component-frontend-mentor)
-- Live Site URL: [Live URL](https://leticiafontoura.github.io/card-component-frontend-mentor/)
+- Solution URL: [Code Repo](https://github.com/leticiafontoura/3-column-preview-card-component-frontend-mentor)
+- Live Site URL: [Live URL](https://leticiafontoura.github.io/3-column-preview-card-component-frontend-mentor/)
 
 ### :hammer: Built with
 
